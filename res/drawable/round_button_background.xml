@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+<!--         android:drawable="@drawable/button_background_normal_p" -->
+<!-- ndroid:drawable="@drawable/button_background_normal_n"  -->
+    <item  android:state_pressed="true" >
+       <layer-list>
+     <!-- Bottom 2dp Shadow -->
+		    <item>
+	        <shape  android:shape="rectangle">
+	            <solid android:color="#d8d8d8" />
+	            <corners android:radius="7dp" />
+	        </shape>
+	    </item>
+	     <!-- White Top color -->
+	    <item android:bottom="3px"  >
+	         <shape  android:shape="rectangle">
+<!-- 	            <gradient android:startColor="#F1CBE4" android:centerColor="#FFFFFF" android:endColor="#F1CBE4" android:type= "sweep" android:angle="90" android:useLevel="true"/> -->
+		        <solid android:color="#A3F8FF"></solid>
+		        <corners android:radius="7dp" />
+	        </shape>
+	     </item>
+ 		</layer-list>  
+ 	</item>  
+    <item>
+         <layer-list>
+     <!-- Bottom 2dp Shadow -->
+     	 <item>
+	        <shape  android:shape="rectangle">
+	            <solid android:color="#d8d8d8" />
+	            <corners android:radius="7dp" />
+	        </shape>
+	    </item>
+	     <!-- White Top color -->
+	    <item android:bottom="3px" >
+	        <shape  android:shape="rectangle">
+<!-- 	            <gradient android:startColor="#F1CBE4" android:centerColor="#FFFFFF" android:endColor="#F1CBE4" android:type= "sweep" android:angle="90" android:useLevel="true"/> -->"
+		        <solid android:color="#40bdd3"></solid>
+		        <corners android:radius="7dp" />
+	        </shape>
+	     </item>
+ 	</layer-list>    
+    </item>
+   
+</selector>

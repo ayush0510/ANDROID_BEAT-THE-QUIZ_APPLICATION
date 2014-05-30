@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+     <PreferenceCategory 
+        android:key="pref_key_single_player_category"
+        android:title="@string/seSinglePlayer">
+            <ListPreference
+            android:key="pref_key_delay_correct"
+            android:title="@string/seDelayCorrect"
+            android:summary="@string/seDelayCorrectInfo"
+            android:defaultValue="0"
+            android:entries="@array/deleyBeforeSwitch"
+            android:entryValues="@array/deleyBeforeSwitchValues"
+     	   />   
+           <ListPreference
+            android:key="pref_key_delay_wrong"
+            android:title="@string/seDelayInCorrect"
+            android:summary="@string/seDelayInCorrectInfo"
+            android:defaultValue="500"
+            android:entries="@array/deleyBeforeSwitch"
+            android:entryValues="@array/deleyBeforeSwitchValues"
+     	   />
+            <ListPreference
+            android:key="pref_key_number_of_test"
+            android:title="@string/seNumberOfTests"
+            android:defaultValue="10"
+            android:summary="@string/seNicknameInfo"
+            android:entries="@array/numberOfGamesInRound"
+            android:entryValues="@array/numberOfGamesInRoundValue"
+            
+     	   />
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="pref_key_multi_player_category"
+        android:title="@string/seMultiPlayer">
+        
+        <EditTextPreference
+            android:key="pref_key_mp_nickname"
+            android:title="@string/seNickname"
+            android:summary="@string/seNicknameInfo"
+            android:dialogTitle="@string/seNickname"
+            android:dialogMessage="@string/seNicknameChose"   
+            android:defaultValue="@string/seNicknameDefault" />
+     	 <ListPreference
+            android:key="pref_key_mp_delay_correct"
+            android:title="@string/seDelayCorrect"
+            android:summary="@string/seDelayCorrectInfo"
+            android:defaultValue="0"
+            android:entries="@array/deleyBeforeSwitch"
+            android:entryValues="@array/deleyBeforeSwitchValues"
+     	   />   
+         <ListPreference
+            android:key="pref_key_mp_delay_wrong"
+            android:title="@string/seDelayInCorrect"
+            android:summary="@string/seDelayInCorrectInfo"
+            android:defaultValue="500"
+            android:entries="@array/deleyBeforeSwitch"
+            android:entryValues="@array/deleyBeforeSwitchValues"
+     	   />
+          <ListPreference
+            android:key="pref_key_mp_time_remain_to_answer"
+            android:title="@string/seTimeForAnswer"
+            android:summary="@string/seTimeForAnswerInfo"
+            android:defaultValue="2000"
+            android:entries="@array/timeToAnswerAfterWrongAnswer"
+            android:entryValues="@array/timeToAnswerAfterWrongAnswerValues"
+     	   />
+            <ListPreference
+            android:key="pref_key_mp_number_of_test"
+            android:title="@string/seNumberOfTests"
+            android:defaultValue="10"
+            android:summary="@string/seNumberOfTestsInfo"
+            android:entries="@array/numberOfGamesInRound"
+            android:entryValues="@array/numberOfGamesInRoundValue"
+     	   />
+	</PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/aboutTitle">
+             <ListPreference
+          	    android:title="@string/aboutAuthor"
+            	android:summary="Jože Kulovic"
+            	android:enabled="false"	
+     	  	 /> 
+     	  	   <ListPreference
+          	    android:title="@string/aboutFeedback"
+            	android:summary="made.by.jst@gmail.com"
+            	android:enabled="false"	
+     	  	 />   
+     	  	 <ListPreference
+          	    android:title="@string/aboutReason"
+            	android:summary="@string/aboutReasonInfo"
+            	android:enabled="false"	
+     	  	 />   
+     </PreferenceCategory>
+<!--      <PreferenceCategory  -->
+<!--         android:key="pref_key_" -->
+<!--         android:title="Več igralske nastavitve"> -->
+   
+        
+<!--         <CheckBoxPreference -->
+<!--             android:key="perform_updates" -->
+<!--             android:summary="Uporabi na zadnje uporabljen IP naslov in PORT za povezavo" -->
+<!--             android:title="Dinamični podatki" -->
+<!--             android:defaultValue="true" -->
+<!--         /> -->
+<!--   		<CheckBoxPreference -->
+<!--             android:key="pref_key_auto_delete" -->
+<!--             android:summary="@string/pref_summary_auto_delete" -->
+<!--             android:title="@string/pref_title_auto_delete" -->
+<!--             android:defaultValue="false"/> -->
+<!-- 	</PreferenceCategory> -->
+</PreferenceScreen>

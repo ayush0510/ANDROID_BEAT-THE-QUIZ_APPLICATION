@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     <include layout="@layout/p_title_bar"/>
+
+
+
+	<RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_centerHorizontal="true"
+	     >
+	    
+<!-- 		        android:layout_centerVertical="true" -->
+       <TextView
+	        android:id="@+id/TLETtext1"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="30sp"
+	        android:text="37 + 89 ="
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:visibility="invisible"
+	        />
+	       
+       	<RelativeLayout
+       	 android:id="@+id/TLETlayout2"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@+id/TLETtext1"
+         android:layout_alignEnd="@+id/TLETtext1"
+	     >
+	     	<View
+		           android:id="@+id/TLETseperator1"
+		           android:layout_height="10dp"
+			       android:layout_width="10dp"
+		           >
+	       	</View>
+	         <TextView
+		        android:id="@+id/TLETtext2"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_below="@+id/TLETseperator1"
+		        android:textSize="30sp"
+		        android:text="\u00A0\u00A0\u00A037"
+		        android:visibility="invisible"
+		        
+		        />
+	           <TextView
+		        android:id="@+id/TLETtext3"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_below="@+id/TLETtext2"
+		        android:textSize="30sp"
+		        android:text="\u00A0+89"
+		        android:visibility="invisible"
+		        
+		        />
+	              
+		       <View
+		           android:id="@+id/TLETseperator2"
+		           android:layout_height="1dp"
+			       android:layout_width="57sp"
+			       android:background="@android:color/black"
+			       android:layout_below="@+id/TLETtext3"
+			       android:visibility="invisible"
+		           >
+		       </View>
+	           
+	           
+		        <TextView
+			        android:id="@+id/TLETtext41"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:textSize="18sp"
+			        android:layout_below="@+id/TLETseperator2"
+			        android:layout_toRightOf="@+id/TLETtext7"
+			        android:text="16"
+			        android:visibility="invisible"
+		        /> 
+		        <TextView
+			        android:id="@+id/TLETtext42"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:textSize="18sp"
+			        android:layout_below="@+id/TLETseperator2"
+			        android:layout_toRightOf="@+id/TLETtext8"
+			        android:layout_marginTop="8sp"
+			        android:layout_marginLeft="-2sp"
+			        android:text="12"
+			        android:visibility="invisible"
+		        />
+		         <TextView
+			        android:id="@+id/TLETtext8"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:layout_below="@+id/TLETseperator2"
+			        android:textSize="30sp"
+			        android:text="\u00A01"
+			        android:visibility="invisible"
+		        />
+		         <TextView
+			        android:id="@+id/TLETtext7"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:layout_below="@+id/TLETseperator2"
+			        android:layout_toRightOf="@+id/TLETtext8"
+			        android:textSize="30sp"
+			        android:text="2"
+			        android:visibility="invisible"
+		        />
+		         <TextView
+			        android:id="@+id/TLETtext5"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:layout_below="@+id/TLETseperator2"
+				    android:layout_toRightOf="@+id/TLETtext7"
+			        android:textSize="30sp"
+			        android:text="6"
+			        android:visibility="invisible"
+		        />
+		       	 <TextView
+			        android:id="@+id/TLETtext61"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:textSize="18sp"
+			        android:layout_alignBottom="@+id/TLETseperator2"
+			        android:layout_alignStart="@+id/TLETtext2"
+			        android:layout_marginLeft="19sp"
+			        android:text="1"
+			        android:visibility="invisible"
+		        />
+		       	  <TextView
+			        android:id="@+id/TLETtext62"
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:textSize="18sp"
+			        android:layout_alignBottom="@+id/TLETseperator2"
+			        android:layout_alignStart="@+id/TLETtext2"
+			        android:text="1"
+			        android:layout_marginLeft="2sp"
+			        android:visibility="invisible"
+		        />
+		       	 
+		    </RelativeLayout>
+	       	 <View
+		           android:id="@+id/TLETseperator3"
+		           android:layout_height="30dp"
+			       android:layout_width="10dp"
+			       android:layout_below="@+id/TLETlayout2"
+		           />
+		       	    
+	       	  <TextView
+		        android:id="@+id/TLETtext9"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_below="@+id/TLETseperator3"
+		        android:textSize="30sp"
+		        android:visibility="invisible"
+		        android:text="37 + 89 = 126"
+	        /> 
+	          
+<!-- 		        android:visibility="invisible" -->
+	       
+<!-- 		        android:visibility="invisible" -->
+	</RelativeLayout>
+   
+   <Button 
+       android:id="@+id/TL0doneButton"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="@string/ok"
+       android:background="@drawable/button_background_normal"
+       android:layout_alignParentBottom="true"
+       /> 
+</RelativeLayout>

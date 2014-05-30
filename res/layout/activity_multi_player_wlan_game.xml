@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+ 
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        >
+
+    	<include layout="@layout/p_title_bar"/>
+    
+		<LinearLayout
+		    android:paddingTop="5dp"
+		    android:id="@+id/MPODGlayoutForIndicator" 
+		    android:layout_below="@+id/TBtitleBar"
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		</LinearLayout>
+	  
+       <RelativeLayout
+	      android:id="@+id/MPODGgameModeStuff"
+	      android:layout_height="fill_parent"
+	      android:layout_width="match_parent"
+	      android:layout_below="@+id/MPODGlayoutForIndicator"
+	     >
+	       <TextView
+	           android:id="@+id/MPODGVtextView"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_centerHorizontal="true"
+	      	   android:layout_centerVertical="true" 
+	           android:textAppearance="?android:attr/textAppearanceLarge"
+	           android:text="bla bla bla"
+	           />
+	       
+	       
+	       	<include layout="@layout/p_bottom_buttons"
+	       	    android:id="@+id/MPODGVbootomButtons"
+	       	    android:layout_alignParentBottom="true"
+	       	  /> 
+       	  
+       </RelativeLayout>
+        <RelativeLayout
+	      android:id="@+id/MPODScoreModeStuff"
+	      android:visibility="invisible"
+	      android:layout_height="fill_parent"
+	      android:layout_width="match_parent"
+	      android:layout_below="@+id/MPODGlayoutForIndicator" >
+	       <WebView
+	           android:id="@+id/MPODGScoretextView"
+	           android:gravity="center"
+	           android:textAlignment="center"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_centerHorizontal="true"
+	      	   android:layout_centerVertical="true" 
+	           android:textAppearance="?android:attr/textAppearanceLarge"
+	          
+	           />
+	       
+	       
+	       	<include layout="@layout/p_result_bottom_buttons"
+	       	    android:id="@+id/MPODGVscoreButtons"
+	       	    android:layout_alignParentBottom="true"
+	       	  /> 
+       	  
+       </RelativeLayout>
+       
+   </RelativeLayout>
+   
+   
+ 

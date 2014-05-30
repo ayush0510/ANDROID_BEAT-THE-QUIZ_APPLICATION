@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<resources>
+
+    <string-array name="deleyBeforeSwitch">
+        <item name="0">0s</item>
+        <item name="100">0.1s</item>
+        <item name="200">0.2s</item>
+        <item name="500">0.5s</item>
+        <item name="1000">1s</item>
+        <item name="3000">3s</item>
+        <item name="5000">5s</item>
+    </string-array>
+    
+    <string-array name="deleyBeforeSwitchValues">
+        <item name="0">0</item>
+        <item name="100">100</item>
+        <item name="200">200</item>
+        <item name="500">500</item>
+        <item name="1000">1000</item>
+        <item name="3000">3000</item>
+        <item name="5000">5000</item>
+    </string-array>
+
+     <string-array name="timeToAnswerAfterWrongAnswer">
+        <item name="0">0s</item>
+        <item name="1000">1s</item>
+        <item name="2000">2s</item>
+        <item name="3000">3s</item>
+        <item name="5000">5s</item>
+        <item name="8000">8s</item>
+        <item name="10000">10s</item>
+    </string-array>
+    
+    <string-array name="timeToAnswerAfterWrongAnswerValues">
+        <item name="0">0</item>
+        <item name="1000">1000</item>
+        <item name="2000">2000</item>
+        <item name="3000">3000</item>
+        <item name="5000">5000</item>
+        <item name="8000">8000</item>
+        <item name="10000">10000</item>
+    </string-array>
+    
+     <string-array name="numberOfGamesInRound">
+        <item name="10">10</item>
+        <item name="20">20</item>
+        <item name="30">30</item>
+        
+    </string-array>
+    
+    <string-array name="numberOfGamesInRoundValue">
+        <item name="10">10</item>
+        <item name="20">20</item>
+        <item name="30">30</item>
+    </string-array>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<resources>
+
+    <string name="app_name">Matematični kviz</string>
+    <string name="button">Gumb</string>
+    <string name="image">Slika</string>
+    <string name="action_settings">Nastavitve</string>
+    
+    <string name="single_player">Eno igralski način</string>
+    <string name="multi_player">Več igralski način</string>
+    <string name="tutorial">Navodila</string>
+    <string name="multi_player_join">Več igralski način - klient</string>
+    <string name="multi_player_host">Več igralski način - strežnik</string>
+    <string name="multi_player_one_device">Več igralski način - ena naprava</string>
+    <string name="multi_player_wlan">Več igralski način - wlan</string>
+    <string name="tutorials">Navodila</string>
+    
+    <string name="join_game">Pridruži se strežniku</string>
+    <string name="host_game">Postavi strežnik</string>
+    <string name="one_device">Ena naprava</string>
+    
+    
+    <string name="your_ip_text">Vaš IP naslov strežnika:</string>
+     <string name="ip_text">IP naslov strežnika:</string>
+    <string name="yout_ip_value">192.168.1.1</string>
+    <string name="port_number_text">Številka vrat (PORT):</string>
+    <string name="port_number_value">1024</string>
+    <string name="number_of_other_player_text">Število povezanih soigralcev:</string>
+    <string name="number_of_other_player_value">0</string>
+    <string name="start_server">Postavi strežnik</string>
+    <string name="continue_text">Nadaljuj</string>
+    <string name="connect">Poveži</string>
+    
+     
+     <string name="time_wc">Čas:</string>
+    <string name="score_wc">Točke:</string>
+    <string name="number_tasks_wc">Št. nalog:</string> 
+     
+    <string name="time">čas</string>
+    <string name="score">točke</string>
+    <string name="number_tasks">nalog</string>
+    <string name="level">stopnja</string>
+    <string name="until_now">Do sedaj:</string>
+    <string name="current">Trenutni:</string>
+    <string name="scores">Dosežki</string>
+    
+    
+    
+ 	<string name="again">Ponovno</string>
+    <string name="share">Deli</string>
+    <string name="end">Končaj</string>
+    
+    <string name="ok">OK</string>
+    
+    
+     <string name="result_text_lose">Žal ste izgubili.\nDosegli ste </string>
+     <string name="result_text_win">Čestitamo, vi ste zmagovalec.\nDosegli ste </string> 
+     <string name="result_text_score"> točk.</string> 
+     <string name="result_text_tie">Odlična borba, vendar pa sta dosagla izenačen rezultat s </string> 
+     <string name="result_text_scores"> točkami.</string> 
+   
+     <string-array name="levelDescriptions">
+         <item >Seštevanje do 10</item>
+         <item >Seštevanje do 50</item>
+         <item >Seštevanje do 100</item>
+         <item >Oštevanje do 20</item>
+         <item >Oštevanje do 50</item>
+         <item >Seštevanje in odštevanje do 50</item>
+         <item >Seštevanje in odštevanje z oklepaji od 50</item>
+         <item >Množenje do 10</item>
+         <item >Množenje do 20</item>
+         <item >Operacije (+,-,*) do 20</item>
+         <item >Celoštevilsko delenje do 100</item>
+         <item >Operacij (*,/) do 10</item>
+         <item >Operacije (+,-,*,/) z oklepaji 20</item>
+         <item >Operacije (+,-,*,/) z oklepaji 50</item>
+         <item >Kvadrati do 10</item>
+         <item >Kvadrati do 20</item>
+         <item >Koreni do 100</item>
+         <item >Koreni do 400</item>
+         <item >Kvadrati in koreni</item>
+         <item >Mešane operacije</item>
+     </string-array> 
+    
+    
+    
+    
+    
+<!--     settings strings  -->
+     <string name="seSinglePlayer">Eno igralske nastavitv</string>
+     <string name="seMultiPlayer">Več igralske nastavitve</string>
+
+     <string name="seDelayCorrect">Zakasnitve pravilnega</string>
+     <string name="seDelayCorrectInfo">Čas preden se prestavi na naslednji test po pravilnem odgovoru</string>
+     <string name="seDelayInCorrect">Zakasnitev napačnega</string>
+     <string name="seDelayInCorrectInfo">Čas preden se prestavi na naslednji test po napačnem odgovoru</string>
+     <string name="seNumberOfTests">Število testov</string>
+     <string name="seNumberOfTestsInfo">Število testo v enem sklopu igre</string>
+     <string name="seNickname">Vzdevek</string>
+     <string name="seNicknameInfo">Vzdevek pod katerem bote prikazani</string>
+     <string name="seNicknameChose">Izberite si vzdevek</string>
+     <string name="seNicknameDefault">neznan</string>
+     
+     <string name="seTimeForAnswer">Čas za odgovor</string>
+     <string name="seTimeForAnswerInfo">Čas za odgovor, po prvem napačnem odgovoru</string>
+     
+<!--      multiplayer strings -->
+	 <string name="muConnectionToClient">Povezava do klieneta</string>
+	 <string name="muLose">se je izgubila</string> 
+	 <string name="muConTOServerLose">Povezava s strežnikom je prekinjena</string> 
+	 <string name="muWaitingServerToStartGame">Čakam strežnik, da prične z igro</string> 
+	  <string name="muRestartServer">Ponovno postavi </string> 
+	 
+	  <string name="muPlace">Mesto</string> 
+	  <string name="muPlayer">Igralec</string> 
+	  <string name="muWrong">Napačnih</string> 
+	  <string name="muNotanswerd">Ne odgovorjenih</string> 
+	  <string name="muCorrect">Pravilnih</string> 
+	 
+	  <string name="muYouAchived">Vi ste dosegli: </string> 
+	  <string name="muNoMoreClients">Vsi soigralci so odšli </string> 
+	  
+	  
+	  <string name="successfulConnectionToServer">Uspešno ste se povezali s strežnikom</string>
+	  <string name="unSuccessfulConnectionToServer">Povezava s strežnikom ni uspela</string> 
+	  <string name="connectiongToServer">Povezujem se na strežnik....</string> 
+	  
+	   <string name="successfulStartedServer">Strežnik se je uspešno postavil</string>
+	  <string name="unSuccessfulStartedServer">Napaka pri postavljanju strežnika</string> 
+	  
+	  
+	  
+	  
+	  <string name="aboutTitle">O aplikaciji</string> 
+	  <string name="aboutFeedback">Povratne informacije:</string> 
+	  <string name="aboutAuthor">Avtor:</string> 
+	  <string name="aboutReason">Nastanek:</string> 
+	  <string name="aboutReasonInfo">Aplikacija se je razvila v okviru predmeta e-izobraževanje fakultete za računalništvo in informatiko Ljubljana.</string> 
+	    
+</resources>

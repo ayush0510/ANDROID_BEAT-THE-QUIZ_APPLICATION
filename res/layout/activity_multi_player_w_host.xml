@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="98"
+    tools:context=".LaunchActivity" >
+    <include layout="@layout/p_title_bar"/>
+	
+  
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TBtitleBar"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+     >
+    
+        <TextView 
+            android:id="@+id/MPWHTextIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_ip_text"
+            android:textSize="18sp"
+           
+            />
+       
+        <TextView 
+            android:id="@+id/MPWHValueIp"
+            android:layout_below="@+id/MPWHTextIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yout_ip_value"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            />
+         <TextView 
+            android:id="@+id/MPWHTextPort"
+            android:layout_below="@+id/MPWHValueIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/port_number_text"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            
+            />
+	       <EditText 
+	            android:id="@+id/MPWHWEditPort"
+	            android:layout_below="@+id/MPWHTextPort"
+	            android:layout_width="80sp"
+	            android:inputType="number"
+	            android:layout_height="wrap_content"
+	            android:text="@string/port_number_value"
+	            android:layout_marginTop="10dp"
+	           />
+	       
+	       
+	       
+        <TextView 
+            android:id="@+id/MPWHTextNumPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MPWHWEditPort"
+            android:text="@string/number_of_other_player_text"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            />
+        <TextView 
+            android:id="@+id/MPWHValueNumPlayers"
+            android:layout_below="@+id/MPWHTextNumPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/number_of_other_player_value"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            />
+	    </RelativeLayout>
+
+    	  
+	 <LinearLayout android:layout_height="50dp"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	   		 android:layout_alignParentBottom="true"
+	        android:weightSum="4"
+	        >
+	     	 <Button
+	     	     
+		        android:id="@+id/MPWHStartServer"
+		        android:onClick="MPWHbuttonClicked"
+		        android:layout_width="0px"
+		        android:layout_height="match_parent"
+		        android:layout_weight="2"
+		        android:contentDescription="@string/button"
+		        android:background="@drawable/button_background_normal"
+		        android:text="@string/start_server" />
+	       
+	     	 
+	        <Button
+	            android:onClick="MPWHbuttonClicked"
+		        android:id="@+id/MPWJStartGame"
+		        android:layout_width="0px"
+		        android:layout_height="match_parent"
+		        android:layout_weight="2"
+		        android:contentDescription="@string/button"
+		        android:background="@drawable/button_background_normal"
+		        android:text="@string/continue_text" 
+		        />
+	   
+	    </LinearLayout>
+</RelativeLayout>

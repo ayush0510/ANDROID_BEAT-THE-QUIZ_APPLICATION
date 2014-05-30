@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+<com.my.math_quiz.views.TitleBar 
+     	xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/TBtitleBar"
+	    android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/titleb"
+        >
+        <ImageButton 
+            android:id="@+id/TBleftButton"
+            android:layout_height="50dp"
+        	android:layout_width="50dp"
+        	android:padding="10dp"
+        	android:scaleType="fitXY"
+        	android:contentDescription="@string/button"
+			android:src="@drawable/navigation_previous_item"
+			android:background="@android:color/transparent"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/TBmiddleText"
+            android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:text="@string/multi_player"
+        	android:textSize="20sp"
+        	android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true"
+        	android:paddingLeft="20dp"
+        />
+        <ImageButton 
+             android:id="@+id/TBRightButton"
+            android:layout_height="50dp"
+        	android:layout_width="50dp"
+        	android:padding="10dp"
+        	android:scaleType="fitXY"
+			android:src="@drawable/action_settings"
+			android:contentDescription="@string/button"
+			android:background="@android:color/transparent"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+            />
+	</com.my.math_quiz.views.TitleBar>

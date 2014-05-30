@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<com.my.math_quiz.views.ResultBottomButtoms xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/BBResultBottomButtons"
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true"
+     >
+
+    <Button 
+           android:id="@+id/LPbuttonAgain"
+           android:layout_height="match_parent"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:text="@string/again"
+           android:gravity="center"
+           android:background="@drawable/button_background_normal"
+           />
+      <Button 
+           android:id="@+id/LPbuttonShare"
+           android:layout_height="match_parent"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:text="@string/share"
+           android:gravity="center"
+           android:background="@drawable/button_background_normal"
+           android:visibility="gone"
+           />
+       <Button 
+           android:id="@+id/LPbuttonFinish"
+           android:layout_height="match_parent"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:text="@string/end"
+           android:gravity="center"
+           android:background="@drawable/button_background_normal" 
+           />
+</com.my.math_quiz.views.ResultBottomButtoms>

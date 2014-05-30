@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="98"
+    tools:context=".LaunchActivity" >
+    <include layout="@layout/p_title_bar"/>
+	
+    
+    <LinearLayout 
+         android:layout_height="fill_parent"
+	     android:orientation="vertical"
+	     android:layout_width="match_parent"
+	     android:layout_below="@+id/TBtitleBar"
+	     android:weightSum="85"
+    >
+	    <View 
+	        android:layout_height="0px"
+	        android:layout_width="match_parent"
+	        android:layout_weight="8"
+	        />
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0px"
+	        android:layout_weight="23"
+	        android:layout_gravity="center"
+	     >
+	     <Button
+	        android:id="@+id/MPJoin"
+	        android:onClick="MultiPlayerActivityButtonClick"
+	        android:layout_width="200dp"
+	        android:layout_height="60dp"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/round_button_background"
+	        android:text="@string/join_game" />
+	        
+	    </RelativeLayout>
+	       <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0px"
+	        android:layout_weight="23"
+	        android:layout_gravity="center"
+	     >
+	     <Button
+	        android:id="@+id/MPhost"
+	        android:onClick="MultiPlayerActivityButtonClick"
+	        android:layout_width="200dp"
+	        android:layout_height="60dp"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/round_button_background"
+	        android:text="@string/host_game" />
+	        
+	    </RelativeLayout>
+	       <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0px"
+	        android:layout_weight="23"
+	        android:layout_gravity="center"
+	     >
+	     <Button
+	        android:id="@+id/MPOneDevice"
+	        android:onClick="MultiPlayerActivityButtonClick"
+	        android:layout_width="200dp"
+	        android:layout_height="60dp"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/round_button_background"
+	        android:text="@string/one_device" />
+	       </RelativeLayout> 
+	   
+	    <View 
+	        android:layout_height="0px"
+	        android:layout_width="match_parent"
+	        android:layout_weight="8"
+	        />
+	  
+	</LinearLayout>
+</RelativeLayout>

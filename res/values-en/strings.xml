@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014 Jože Kulovic
+
+    This file is part of Math-quiz.
+
+    Math-quiz is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Math-quiz is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Math-quiz.  If not, see http://www.gnu.org/licenses
+
+-->
+
+<resources>
+
+    <string name="app_name">Math quiz</string>
+    <string name="button">Button</string>
+    <string name="image">Image</string>
+    <string name="action_settings">Setings</string>
+    
+    <string name="single_player">Single-player</string>
+    <string name="multi_player">Multiplayer</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="multi_player_join">Multiplayer - client</string>
+    <string name="multi_player_host">Multiplayer - server</string>
+    <string name="multi_player_one_device">Multiplayer - one device</string>
+    <string name="multi_player_wlan">Multiplayer - WiFi</string>
+    <string name="tutorials">Tutorials</string>
+    
+    <string name="join_game">Join</string>
+    <string name="host_game">Host</string>
+    <string name="one_device">One device</string>
+    
+    
+    <string name="your_ip_text">Your IP address of server:</string>
+     <string name="ip_text">Server IP address:</string>
+    <string name="yout_ip_value">192.168.1.1</string>
+    <string name="port_number_text">Server PORT number:</string>
+    <string name="port_number_value">1024</string>
+    <string name="number_of_other_player_text">Number of connected players:</string>
+    <string name="number_of_other_player_value">0</string>
+    <string name="start_server">Start server</string>
+    <string name="continue_text">Continue</string>
+    <string name="connect">Connect</string>
+    
+     
+     <string name="time_wc">Time:</string>
+    <string name="score_wc">Score:</string>
+    <string name="number_tasks_wc">Num. tasks:</string> 
+     
+    <string name="time">time</string>
+    <string name="score">score</string>
+    <string name="number_tasks">tasks</string>
+    <string name="level">Level</string>
+    <string name="until_now">Until now:</string>
+    <string name="current">Current:</string>
+    <string name="scores">Scores</string>
+    
+    
+    
+ 	<string name="again">Again</string>
+    <string name="share">Share</string>
+    <string name="end">End</string>
+    
+    <string name="ok">OK</string>
+    
+    
+     <string name="result_text_lose">Sorry,you lose.\n You have reached </string>
+     <string name="result_text_win">Congratulations, you are the winner.\n You have reached </string> 
+     <string name="result_text_score"> points.</string> 
+     <string name="result_text_tie">Odlična borba, vendar pa sta dosagla izenačen rezultat s </string> 
+     <string name="result_text_scores"> points.</string> 
+   
+    <string-array name="levelDescriptions">
+         <item >Sum to 10</item>
+         <item >Sum to 50</item>
+         <item >Sum to 100</item>
+         <item >Sub to 20</item>
+         <item >Sub to 50</item>
+         <item >Sum and sub to 50</item>
+         <item >Sum and sub with brackeds to 50</item>
+         <item >Multiplication to 10</item>
+         <item >Multiplication to 20</item>
+         <item >Operations  (+,-,*) do 20</item>
+         <item >Divide to 100</item>
+         <item >Operations (*,/) to 10</item>
+         <item >Operations (+,-,*,/) with brackets to 20</item>
+         <item >Operations (+,-,*,/) with brackets to 50</item>
+         <item >Squares to 10</item>
+         <item >Squares to 20</item>
+         <item >Roots to 100</item>
+         <item >Roots to 400</item>
+         <item >Squares and roots</item>
+         <item >Mix operation</item>
+     </string-array> 
+    
+    <!--     settings strings  -->
+     <string name="seSinglePlayer">Single player settings</string>
+     <string name="seMultiPlayer">Multi player settings</string>
+
+     <string name="seDelayCorrect">Delay correct</string>
+     <string name="seDelayCorrectInfo">Time before app. switch to next test after correct answer</string>
+     <string name="seDelayInCorrect">Delay incorrect</string>
+     <string name="seDelayInCorrectInfo">Time before app. switch to next test after incorrect answer</string>
+     <string name="seNumberOfTests">Number of tests</string>
+     <string name="seNumberOfTestsInfo">Number of test in one game</string>
+     <string name="seNickname">Nickname</string>
+     <string name="seNicknameInfo">Nickname which one will repesent you</string>
+     <string name="seNicknameChose">Chose a nickname</string>
+     <string name="seNicknameDefault">unknown</string>
+     
+     <string name="seTimeForAnswer">Time for answer</string>
+     <string name="seTimeForAnswerInfo">Time for answer, after first wrong answer</string>
+    
+    <!--      multiplayer strings -->
+	 <string name="muConnectionToClient">Connection to client</string>
+	 <string name="muLose">lose</string> 
+     <string name="muConTOServerLose">Connection to server lose</string> 
+     <string name="muWaitingServerToStartGame">Waiting server to start game</string> 
+     <string name="muRestartServer">Restart server</string> 
+    
+      <string name="muPlace">Place</string> 
+      <string name="muPlayer">Player</string> 
+	  <string name="muWrong">Wrong</string> 
+	  <string name="muNotanswerd">Not answerd</string> 
+	  <string name="muCorrect">Correct</string> 
+	  
+	  <string name="muYouAchived">You achieved: </string>
+	  <string name="muNoMoreClients">All other players left game</string>  
+	  
+	   <string name="successfulConnectionToServer">You successfully connect to server</string>
+	  <string name="unSuccessfulConnectionToServer">The connection to the server failed</string> 
+	  <string name="connectiongToServer">Connecting to server...</string> 
+	  
+	   <string name="successfulStartedServer">Server successfuly start</string>
+	  <string name="unSuccessfulStartedServer">Error while startitng server</string> 
+	  
+	  
+	  
+	  
+	  <string name="aboutTitle">About application</string> 
+	   <string name="aboutFeedback">Feedback:</string> 
+	  <string name="aboutAuthor">Author:</string> 
+	  <string name="aboutReason">Reason:</string> 
+	  <string name="aboutReasonInfo">The application was developed in the course of e-Learning Faculty of Computer and Information Science, Ljubljana.</string> 
+</resources>
